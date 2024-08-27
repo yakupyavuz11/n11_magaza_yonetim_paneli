@@ -40,8 +40,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text(_titles[_selectedIndex]),
+        backgroundColor: Theme.of(context).primaryColor,
+        title: Text(_titles[_selectedIndex],style:const TextStyle(color: Colors.white,fontWeight: FontWeight.w500),),
         automaticallyImplyLeading: false, // Geri oklarını kaldırmak için
       ),
       body: _pages[_selectedIndex],

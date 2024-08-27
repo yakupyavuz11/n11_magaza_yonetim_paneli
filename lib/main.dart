@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:n11_magaza_yonetim_paneli/auth/login.dart';
 import 'package:n11_magaza_yonetim_paneli/screens/home_screens.dart';
 import 'package:n11_magaza_yonetim_paneli/theme.dart';
-import 'dashboard.dart'; // Dashboard sayfası
+import 'screens/dashboard_screens.dart'; // Dashboard sayfası
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

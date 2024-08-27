@@ -9,21 +9,23 @@ environment:
   sdk: '>=3.4.4 <4.0.0'
 
 dependencies:
+
+  charts_flutter: ^0.12.0
+  cupertino_icons: ^1.0.6
+  fl_chart: ^0.69.0
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.6
-
 dev_dependencies:
+  echart_flutter: ^0.1.0+2
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
   assets:
     - assets/images/ # Images için doğru klasör yolu
-
   # Eğer özel fontlar kullanıyorsan, buraya ekleyebilirsin.
   # Örnek font ekleme:
   # fonts:
